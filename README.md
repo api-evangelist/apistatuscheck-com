@@ -64,5 +64,136 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-apistatuscheck-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://apistatuscheck.com/
+API Status Check provides real-time outage monitoring for over 285 developer APIs and websites, including popular services like ChatGPT, YouTube, Instagram, Fortnite, Stripe, and AWS. Users can instantly check if a website or API is down, view a dashboard of monitored services, receive free email alerts for selected APIs, and access detailed troubleshooting guides. The platform offers a free tier with unlimited status checks and a paid Pro plan for advanced alerts.
+
+**Areas:** Company · API Monitoring · Outage Detection · Free Service · Developer Tools
+
+## apistatuscheck-com on APIs.io
+
+Everything profiled for apistatuscheck-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/apistatuscheck-com/](https://apis.io/providers/apistatuscheck-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [MCP](https://apis.io/apis/apistatuscheck-com/mcp/) — Model Context Protocol (MCP) endpoint providing eight tools for API status checking.
+- [apistatuscheck-com API](https://apis.io/apis/apistatuscheck-com/apistatuscheck-com-api/) — apistatuscheck-com API as documented publicly: 9 operations. Contract generated from the documentation by API Evangelist (2026-10-30); not the provider's…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiStatusResponse](https://apis.io/schemas/apistatuscheck-com/apistatuscheck-com-get-api-status-response/)
+- [GetApiUptimeSlugResponse](https://apis.io/schemas/apistatuscheck-com/apistatuscheck-com-get-api-uptime-slug-response/)
+- [PostApiBadgeOpenaiRequest](https://apis.io/schemas/apistatuscheck-com/apistatuscheck-com-post-api-badge-openai-request/)
+- [PostApiMcpRequest](https://apis.io/schemas/apistatuscheck-com/apistatuscheck-com-post-api-mcp-request/)
+- [PostApiWebhookDiscordRequest](https://apis.io/schemas/apistatuscheck-com/apistatuscheck-com-post-api-webhook-discord-request/)
+- [PostApiWebhookSlackRequest](https://apis.io/schemas/apistatuscheck-com/apistatuscheck-com-post-api-webhook-slack-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Apistatuscheck Com Context](https://apis.io/jsonld/apistatuscheck-com/apistatuscheck-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [apistatuscheck-com API Rules](https://apis.io/rules/apistatuscheck-com/apistatuscheck-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Apistatuscheck Com Authentication](https://apis.io/security/apistatuscheck-com/apistatuscheck-com-authentication/)
+- [Apistatuscheck Com Domain Security](https://apis.io/security/apistatuscheck-com/apistatuscheck-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Apistatuscheck Com Scopes](https://apis.io/scopes/apistatuscheck-com/apistatuscheck-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Apistatuscheck Com Plans Pricing](https://apis.io/plans/apistatuscheck-com/apistatuscheck-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Apistatuscheck Com Rate Limits](https://apis.io/rate-limits/apistatuscheck-com/apistatuscheck-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://apistatuscheck.com/)
+- [Documentation](https://apistatuscheck.com/docs)
+- [Getting started](https://apistatuscheck.com/blog/grok-api-key-setup-guide)
+- [API reference](https://apistatuscheck.com/docs/api)
+- [Pricing](https://apistatuscheck.com/pricing)
+- [Support](https://apistatuscheck.com/support)
+- [Blog](https://apistatuscheck.com/blog)
+- [Terms of service](https://apistatuscheck.com/terms)
+- [Privacy policy](https://apistatuscheck.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 55.7** — strong · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.7 |
+| Contract quality | 53.7 |
+| Contract governance | 70.9 |
+| Operational transparency | 28.4 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 60.0 |
+
+**Agent readiness 25.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/apistatuscheck-com/](https://apis.io/providers/apistatuscheck-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for apistatuscheck-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/apistatuscheck-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
